@@ -16,7 +16,7 @@ export const logEventKey = `${extensionName}-log-event`;
 /**
  * Path where the icons are located.
  */
-export const iconFolderPath = './../icons/';
+export const iconFolderPath = process.env.MATERIAL_ICONS_DIR || './../icons/';
 
 /**
  * File name of the JSON file that will be generated to the out folder.

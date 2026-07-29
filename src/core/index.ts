@@ -12,9 +12,11 @@ export {
   padWithDefaultConfig,
 } from './generator/config/defaultConfig';
 export {
+  clonesFolder,
   extensionName,
   extensionPublisher,
   highContrastColorFileEnding,
+  iconFolderPath,
   lightColorFileEnding,
   logEventKey,
   manifestName,

@@ -6,10 +6,12 @@ import {
   applyConfigToIcons,
   type Config,
   clearCloneFolder,
+  clonesFolder,
   customClonesIcons,
   extensionName,
   generateManifest,
   hasCustomClones,
+  iconFolderPath,
   logger,
   manifestName,
   merge,
@@ -37,7 +39,7 @@ export const detectConfigChanges = async (
     if (
       isActivation &&
       hasCustomClones(config) &&
-      !existsSync(resolvePath('./../icons/clones'))
+      !existsSync(resolvePath(iconFolderPath, clonesFolder))
     ) {
       logger.info('Custom clones missing from disk, regenerating...');
     } else {

@@ -10,6 +10,7 @@ import type {
 } from '../../../models/icons/config';
 import type { Manifest } from '../../../models/manifest';
 import {
+  clonesFolder,
   iconFolderPath,
   lightColorFileEnding,
   openedFolder,
@@ -255,7 +256,7 @@ const getFolderIconCloneData = (
  * @param keep whether to keep the folder after clearing it.
  */
 export const clearCloneFolder = async (keep = true): Promise<void> => {
-  const clonesFolderPath = resolvePath('./../icons/clones');
+  const clonesFolderPath = resolvePath(iconFolderPath, clonesFolder);
 
   if (existsSync(clonesFolderPath)) {
     await rm(clonesFolderPath, { recursive: true });
