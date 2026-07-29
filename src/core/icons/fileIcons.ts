@@ -1271,10 +1271,12 @@ export const fileIcons: FileIcons = {
       fileNames: [
         '.git',
         '.gitignore',
+        'template.gitignore',
         '.gitmessage',
         '.gitignore-global',
         '.gitignore_global',
         '.gitattributes',
+        'template.gitattributes',
         '.gitattributes-global',
         '.gitattributes_global',
         '.gitconfig',
@@ -2027,7 +2029,7 @@ export const fileIcons: FileIcons = {
     {
       name: 'stylelint',
       light: true,
-      fileNames: ['.stylelintignore', '.stylelintcache'],
+      fileNames: ['stylelint.json', '.stylelintignore', '.stylelintcache'],
       patterns: {
         stylelint: FileNamePattern.Cosmiconfig,
       },
@@ -3334,15 +3336,12 @@ export const fileIcons: FileIcons = {
         base: '3d',
         color: '#00b0ff',
       },
-      fileNames: [
-        '.devcontainer/devcontainer.json',
-        '.devcontainer/devcontainer-lock.json',
-      ],
+      fileNames: ['.devcontainer/devcontainer-lock.json'],
     },
     {
       name: 'devcontainer-generated',
       clone: { base: '3d', color: 'red-800' },
-      fileNames: ['devcontainer.json'],
+      fileNames: ['.devcontainer/devcontainer.json'],
     },
     {
       name: 'devcontainer-template',
@@ -3390,6 +3389,7 @@ export const fileIcons: FileIcons = {
         '.markdownlint-cli2.cjs',
         '.markdownlint-cli2.mjs',
         '.markdownlintignore',
+        'markdownlint.yml',
       ],
     },
     {
@@ -3656,6 +3656,8 @@ export const fileIcons: FileIcons = {
         '.oxfmtrc.jsonc',
         'oxlint.config.ts',
         'oxfmt.config.ts',
+        'oxfmt.json',
+        'oxlint.json',
       ],
     },
     {
@@ -3815,6 +3817,55 @@ export const fileIcons: FileIcons = {
     {
       name: 'mrpack',
       fileExtensions: ['mrpack'],
+    },
+    {
+      name: 'cspell',
+      fileNames: ['cspell.yml', 'cspell-ext.json'],
+    },
+    {
+      name: 'dart-dash',
+      fileNames: ['pubspec.yaml'],
+    },
+    {
+      name: 'detekt',
+      fileNames: ['detekt.yml'],
+    },
+    {
+      name: 'ferris',
+      fileNames: ['Cargo.toml'],
+    },
+    {
+      name: 'hk',
+      fileNames: ['hk.pkl'],
+    },
+    {
+      name: 'launch',
+      fileNames: ['launch.json'],
+    },
+    {
+      name: 'luals-dark',
+      fileNames: ['.luarc.json'],
+    },
+    {
+      name: 'lychee',
+      fileNames: ['lychee.toml', '.lycheecache'],
+    },
+    {
+      name: 'mise',
+      light: true,
+      fileNames: ['mise.toml', 'mise.local.toml', 'mise.devcontainer.toml'],
+    },
+    {
+      name: 'pitchfork',
+      fileNames: ['pitchfork.toml'],
+    },
+    {
+      name: 'stylua',
+      fileNames: ['stylua.toml'],
+    },
+    {
+      name: 'yamllint',
+      fileNames: ['yamlfmt.yml', 'yamllint.yml'],
     },
   ]),
 };

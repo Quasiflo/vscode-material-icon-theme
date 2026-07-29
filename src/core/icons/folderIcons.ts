@@ -128,6 +128,7 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-pdm', folderNames: ['pdm-plugins', 'pdm-build'] },
       { name: 'folder-php', folderNames: ['php'] },
       { name: 'folder-phpmailer', folderNames: ['phpmailer'] },
+      { name: 'folder-pkl', folderNames: ['pkl'] },
       { name: 'folder-sublime', folderNames: ['sublime'] },
       {
         name: 'folder-docs',

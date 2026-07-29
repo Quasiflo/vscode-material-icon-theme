@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <g transform="matrix(1.16777,0,0,1.16777,-31.3312,-12.8312)">
+        <circle cx="112.464" cy="96.621" r="85.634" style="fill:rgb(235,235,235);"/>
+        <clipPath id="_clip1">
+            <circle cx="112.464" cy="96.621" r="85.634"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(0.856335,0,0,0.856335,26.83,10.9878)">
+                <rect x="0" y="0" width="200" height="200" style="fill:rgb(6,3,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.856335,0,0,0.856335,92.7679,10.9878)">
+                <rect x="0" y="0" width="123" height="121" style="fill:rgb(244,235,0);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.856335,0,0,0.856335,93.6242,126.593)">
+                <rect x="0" y="0" width="122" height="65" style="fill:rgb(180,26,0);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.856335,0,0,0.856335,26.83,10.9878)">
+                <rect x="0" y="0" width="62" height="121" style="fill:rgb(254,254,254);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.856335,0,0,0.856335,26.83,126.593)">
+                <rect x="0" y="0" width="62" height="65" style="fill:rgb(180,26,0);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>
