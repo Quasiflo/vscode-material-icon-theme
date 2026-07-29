@@ -829,6 +829,11 @@ export const folderIcons: FolderTheme[] = [
         ],
       },
       {
+        name: 'folder-config-smartworkspace',
+        folderNames: ['smartworkspace'],
+        clone: { base: 'folder-generator', color: 'orange-600' },
+      },
+      {
         name: 'folder-hook',
         folderNames: ['hook', 'hooks'],
       },

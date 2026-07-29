@@ -484,6 +484,26 @@ export const fileIcons: FileIcons = {
       ],
     },
     {
+      name: 'vscode-sourced',
+      clone: { base: 'vscode', color: 'pink-500' },
+      fileNames: ['settings.jsonc', 'extensions.json'],
+    },
+    {
+      name: 'vscode-smartworkspace',
+      clone: { base: 'vscode', color: 'light-green-600' },
+      fileNames: ['smartworkspace.pkl'],
+    },
+    {
+      name: 'vscode-generated',
+      clone: { base: 'vscode', color: 'red-800' },
+      fileNames: ['settings.json'],
+    },
+    {
+      name: 'vscode-template',
+      clone: { base: 'vscode', color: 'orange-500' },
+      fileNames: ['settings.template.jsonc', 'settings.local.jsonc'],
+    },
+    {
       name: 'visualstudio',
       fileExtensions: [
         'csproj',
@@ -752,6 +772,11 @@ export const fileIcons: FileIcons = {
       ],
     },
     {
+      name: 'console-generated',
+      clone: { base: 'console', color: 'red-800' },
+      fileNames: ['post-create.sh', 'post-start.sh'],
+    },
+    {
       name: 'powershell',
       fileExtensions: ['ps1', 'psm1', 'psd1', 'ps1xml', 'psc1', 'pssc', 'psrc'],
     },
@@ -937,7 +962,6 @@ export const fileIcons: FileIcons = {
       name: 'docker',
       fileExtensions: [
         'dockerignore',
-        'dockerfile',
         'docker-compose.yml',
         'docker-compose.yaml',
         'containerignore',
@@ -946,7 +970,6 @@ export const fileIcons: FileIcons = {
         'compose.yml',
       ],
       fileNames: [
-        'dockerfile',
         'dockerfile.prod',
         'dockerfile.production',
         'dockerfile.alpha',
@@ -1047,6 +1070,11 @@ export const fileIcons: FileIcons = {
         'compose.web.yml',
         'compose.worker.yml',
       ],
+    },
+    {
+      name: 'dockerfile-generated',
+      clone: { base: 'docker', color: 'red-800' },
+      fileNames: ['dockerfile'],
     },
     {
       name: 'tex',
@@ -3310,6 +3338,16 @@ export const fileIcons: FileIcons = {
         '.devcontainer/devcontainer.json',
         '.devcontainer/devcontainer-lock.json',
       ],
+    },
+    {
+      name: 'devcontainer-generated',
+      clone: { base: '3d', color: 'red-800' },
+      fileNames: ['devcontainer.json'],
+    },
+    {
+      name: 'devcontainer-template',
+      clone: { base: '3d', color: 'orange-500' },
+      fileNames: ['devcontainer.pkl'],
     },
     {
       name: 'kcl',
