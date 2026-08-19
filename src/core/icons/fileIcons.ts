@@ -2007,7 +2007,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'kingfisher',
-      fileNames: ['kingfisher.yml, kingfisher.yaml'],
+      fileNames: ['kingfisher.yml', 'kingfisher.yaml'],
     },
     {
       name: 'fnox',
