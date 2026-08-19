@@ -2006,6 +2006,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['package.spdx.json'],
     },
     {
+      name: 'kingfisher',
+      fileNames: ['kingfisher.yaml'],
+    },
+    {
       name: 'fnox',
       fileNames: ['fnox.toml'],
     },
