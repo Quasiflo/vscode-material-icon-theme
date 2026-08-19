@@ -1375,7 +1375,7 @@ export const fileIcons: FileIcons = {
     {
       name: 'lock',
       fileExtensions: ['lock'],
-      fileNames: ['security.md', 'security.txt', 'security'],
+      fileNames: ['security.md', 'security.txt', 'security', 'aube-lock.yaml'],
     },
     {
       name: 'handlebars',
@@ -1996,6 +1996,18 @@ export const fileIcons: FileIcons = {
     {
       name: 'figma',
       fileExtensions: ['fig'],
+    },
+    {
+      name: 'aube',
+      fileNames: ['aube-workspace.yaml'],
+    },
+    {
+      name: 'spdx',
+      fileNames: ['package.spdx.json'],
+    },
+    {
+      name: 'fnox',
+      fileNames: ['fnox.toml'],
     },
     {
       name: 'rollup',
