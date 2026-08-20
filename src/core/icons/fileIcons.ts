@@ -2010,6 +2010,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['kingfisher.yml', 'kingfisher.yaml'],
     },
     {
+      name: 'rumdl',
+      fileNames: ['.rumdl.toml', 'rumdl.toml'],
+    },
+    {
       name: 'fnox',
       fileNames: ['fnox.toml'],
     },
