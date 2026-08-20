@@ -2014,6 +2014,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['.rumdl.toml', 'rumdl.toml'],
     },
     {
+      name: 'ls-lint',
+      fileNames: ['.ls-lint.yml', 'ls-lint.yml'],
+    },
+    {
       name: 'fnox',
       fileNames: ['fnox.toml'],
     },
