@@ -2018,6 +2018,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['.ls-lint.yml', 'ls-lint.yml'],
     },
     {
+      name: 'htmlhint',
+      fileNames: ['.htmlhintrc', 'htmlhint.json'],
+    },
+    {
       name: 'fnox',
       fileNames: ['fnox.toml'],
     },
