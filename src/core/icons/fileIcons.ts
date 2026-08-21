@@ -2022,6 +2022,10 @@ export const fileIcons: FileIcons = {
       fileNames: ['.htmlhintrc', 'htmlhint.json'],
     },
     {
+      name: 'djlint',
+      fileNames: ['djlint.toml', '.djlint.toml', '.djlintrc'],
+    },
+    {
       name: 'fnox',
       fileNames: ['fnox.toml'],
     },
