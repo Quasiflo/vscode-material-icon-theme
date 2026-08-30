@@ -954,7 +954,12 @@ export const fileIcons: FileIcons = {
         'swiftmodule',
         'swiftsourceinfo',
       ],
-      fileNames: ['.swift-format', '.swift-version', '.swiftformat'],
+      fileNames: [
+        '.swift-format',
+        '.swift-version',
+        '.swiftformat',
+        '.xcode-version',
+      ],
     },
     { name: 'arduino', fileExtensions: ['ino'] },
     {
