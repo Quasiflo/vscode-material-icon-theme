@@ -879,7 +879,7 @@ export const folderIcons: FolderTheme[] = [
           'dependencies',
         ],
       },
-      { name: 'folder-shared', folderNames: ['shared', 'common'] },
+      { name: 'folder-shared', folderNames: ['shared', 'share', 'common'] },
       {
         name: 'folder-shader',
         folderNames: ['glsl', 'hlsl', 'shader', 'shaders'],
