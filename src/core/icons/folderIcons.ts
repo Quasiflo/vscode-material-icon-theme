@@ -710,6 +710,7 @@ export const folderIcons: FolderTheme[] = [
         name: 'folder-tools',
         folderNames: [
           'tools',
+          'tool',
           'toolkit',
           'toolkits',
           'toolbox',
