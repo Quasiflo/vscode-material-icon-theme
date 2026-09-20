@@ -2029,7 +2029,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'htmlhint',
-      fileNames: ['.htmlhintrc', 'htmlhint.json'],
+      fileNames: ['.htmlhintrc'],
     },
     {
       name: 'djlint',
@@ -2071,7 +2071,7 @@ export const fileIcons: FileIcons = {
     {
       name: 'stylelint',
       light: true,
-      fileNames: ['stylelint.json', '.stylelintignore', '.stylelintcache'],
+      fileNames: ['.stylelintignore', '.stylelintcache'],
       patterns: {
         stylelint: FileNamePattern.Cosmiconfig,
       },
@@ -3913,7 +3913,7 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'yamllint',
-      fileNames: ['yamlfmt.yml', 'yamllint.yml'],
+      fileNames: ['.yamlfmt', 'yamllint.yml'],
     },
   ]),
 };
