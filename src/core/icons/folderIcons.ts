@@ -629,6 +629,14 @@ export const folderIcons: FolderTheme[] = [
       },
       { name: 'folder-moon', folderNames: ['moon'] },
       {
+        name: 'folder-mise',
+        folderNames: ['config/mise'],
+        clone: {
+          base: 'folder-secure',
+          color: 'gray-600',
+        },
+      },
+      {
         name: 'folder-debug',
         folderNames: ['debug', 'debugger', 'debugging'],
       },
